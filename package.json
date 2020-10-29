@@ -1,0 +1,50 @@
+{
+  "name": "@alirezazeynali/round-robin",
+  "version": "1.0.0",
+  "description": "Round Robin array selection.",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alirezazeynali75/round-robin-js.git"
+  },
+  "keywords": [
+    "Round-Robin",
+    "Array"
+  ],
+  "author": "Alireza Zeynali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alirezazeynali75/round-robin-js/issues"
+  },
+  "homepage": "https://github.com/alirezazeynali75/round-robin-js#readme",
+  "devDependencies": {
+    "@types/bluebird": "^3.5.30",
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.1",
+    "@types/validator": "^13.0.0",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "eslint": "^7.6.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-eslint": "^6.0.0",
+    "gulp-git": "^2.10.1",
+    "gulp-if": "^3.0.0",
+    "gulp-jsdoc3": "^3.0.0",
+    "gulp-prettier": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1"
+  },
+  "dependencies": {
+    "typescript": "^3.9.7"
+  }
+}
