@@ -21,4 +21,8 @@ export class Selector <T =any> {
       if (this._currentIndex >= this.length) this._currentIndex = 0
       return this.array[this._currentIndex++]
     }
+    
+    public getLength () {
+        return this.length;
+    }
 }
